@@ -1,0 +1,14 @@
+{
+  "client_id": "https://markezeh.github.io/cooker-client/client.json",
+  "client_name": "Cooker",
+  "client_uri": "https://github.com/MarkEzeh/cooker-client",
+  "redirect_uris": [
+    "http://127.0.0.1:53682/callback",
+    "http://localhost:53682/callback",
+    "http://127.0.0.1:53683/callback",
+    "http://localhost:53683/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
